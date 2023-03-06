@@ -83,9 +83,10 @@ body {
     padding-left: 10px;
 }
 
-/* article {
-    border: 1px solid greenyellow;
-} */
+h4{
+    border-left: 5px solid var(--coral);
+  padding-left: 10px;
+}
 a,
 li,
 .hide,
@@ -120,8 +121,12 @@ a:hover {
     padding: 25px 25px;
 } */
 .main__wrapper li,
-.main__wrapper li a {
-    color: var(--dark);
+.main__wrapper li a, .description__features p a {
+    color: var(--dark) !important;
+}
+.main__wrapper li:hover,
+.main__wrapper li a:hover, .description__features p a:hover {
+    color: var(--coral) !important;
 }
 
 .article__features {
@@ -206,6 +211,9 @@ footer {
     padding: .1em .3em;
     width: 1rem;
     height: 1rem;
+}
+.show:hover, hide:hover{
+    box-shadow: var(--coral);
 }
 
 #google_translate_element {
