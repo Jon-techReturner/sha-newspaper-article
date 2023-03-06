@@ -4,10 +4,7 @@ function googleTranslateElementInit() {
         'google_translate_element'
     );
 }
-function myFunction() {
-    var element = document.body;
-    element.classList.toggle("contrast-color");
-}
+
 $(document).ready(function () {
     $("#hide").click(function () {
         $("#google_translate_element").hide();
@@ -20,5 +17,9 @@ $(document).ready(function () {
         $("#show").hide();
     });
 });
+
+
+
+
 
 
